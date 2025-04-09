@@ -3,7 +3,7 @@ import ListGroup from 'react-bootstrap/ListGroup';
 
 function DefaultExample() {
   return (
-    <ListGroup as="ol" numbered>
+    <ListGroup as="ol" numbered className='m-2'>
       <ListGroup.Item
         as="li"
         className="d-flex justify-content-between align-items-start"

@@ -3,7 +3,7 @@
 import { useState } from "react";
 import { Container, Form, Button, ListGroup } from "react-bootstrap";
 
-export default function ChatApp({userName}) {
+export default function ChatApp({userName,userMobile}) {
   const [messages, setMessages] = useState([]);
   const [input, setInput] = useState("");
 
@@ -15,8 +15,9 @@ export default function ChatApp({userName}) {
   };
 
   return (
-    <Container className="mt-4 p-4 border rounded shadow" style={{ maxWidth: "500px" }}>
-      <h4 className="text-center">{userName}</h4>
+    <Container className="mt-1 p-4 border rounded shadow" >
+      <h4>{userName}</h4>
+      <p>{userMobile}</p>
       <ListGroup className="mb-3" style={{ maxHeight: "300px", overflowY: "auto" }}>
         {messages.map((msg, index) => (
           <ListGroup.Item key={index} className={msg.sender === "You" ? "text-start" : "text-end"}>

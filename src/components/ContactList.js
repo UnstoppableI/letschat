@@ -1,4 +1,4 @@
-import ChatApp from '@/app/ChatApp';
+import ChatApp from '@/components/ChatApp';
 import Col from 'react-bootstrap/Col';
 import ListGroup from 'react-bootstrap/ListGroup';
 import Row from 'react-bootstrap/Row';
