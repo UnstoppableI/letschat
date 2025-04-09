@@ -46,9 +46,7 @@ export default function FrontTab() {
             />
         </Tab>
           <Tab eventKey="profile" title="Message">
-            < ChatApp userName={"Anmol Gupta"} />
-            < ChatApp userName={"Dr. Puneet Goyal"}/>
-            < ChatApp userName={"Vikash Bajiya"} /> 
+             
             < DefaultExample />
           </Tab>
           <Tab eventKey="contact" title="Contact">

@@ -15,11 +15,11 @@ export default function ChatApp({userName,userMobile}) {
   };
 
   return (
-    <Container className="mt-1 p-4 border rounded shadow" >
-      <h4>{userName}</h4>
-      <p>{userMobile}</p>
+    
+      <div>
       <ListGroup className="mb-3" style={{ maxHeight: "300px", overflowY: "auto" }}>
         {messages.map((msg, index) => (
+          
           <ListGroup.Item key={index} className={msg.sender === "You" ? "text-start" : "text-end"}>
             <strong>{msg.sender}:</strong> {msg.text}
           </ListGroup.Item>
@@ -33,7 +33,6 @@ export default function ChatApp({userName,userMobile}) {
           onChange={(e) => setInput(e.target.value)}
         />
         <Button type="submit" className="ms-2">Send</Button>
-      </Form>
-    </Container>
+      </Form></div>
   );
 }
