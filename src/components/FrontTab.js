@@ -21,7 +21,6 @@ export default function FrontTab() {
             <PostPage />
         </Tab>
           <Tab eventKey="profile" title="Message">
-             
             < DefaultExample />
           </Tab>
           <Tab eventKey="contact" title="Contact">

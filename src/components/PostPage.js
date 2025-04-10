@@ -1,9 +1,9 @@
-import PostCard from './components/PostCard';
-import posts from '../';
+import PostCard from './PostCard';
+import posts from '../data/Posts.json'; // Assuming you have a posts.json file with your posts data
 
 export default function PostPage() {
   return (
-    <div className="post-list grid md:grid-cols-2 lg:grid-cols-3 gap-4 p-4">
+    <div className="post-list m-2 p-2">
       {posts.map((post) => (
         <PostCard
           key={post.id}
