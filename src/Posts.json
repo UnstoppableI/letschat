@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "title": "Hello World",
+        "content": "This is my first post!",
+        "author": "Alice",
+        "timestamp": "2023-10-01T12:00:00Z",
+        "image": "./DigitalMark.png"
+    },
+    {
+        "id": 2,
+        "title": "Learning React",
+        "content": "React is a powerful library for building user interfaces.",
+        "author": "Bob",
+        "timestamp": "2023-10-02T14:30:00Z",
+        "image": "./DigitalMark.png"
+    },
+    {
+        "id": 3,
+        "title": "JavaScript Tips",
+        "content": "Here are some tips for writing better JavaScript code.",
+        "author": "Charlie",
+        "timestamp": "2023-10-03T09:15:00Z",
+        "image": "./DigitalMark.png"
+    }
+]
