@@ -7,8 +7,8 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 
 function NavScrollExample() {
   return (
-    <Navbar expand="lg" className="bg-body-tertiary">
-      <Container fluid>
+    <Navbar expand="lg" className="bg-body-tertiary fixed-top">
+      <Container>
         <Navbar.Brand href="#">LetsChat</Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
@@ -18,19 +18,19 @@ function NavScrollExample() {
             navbarScroll
           >
             <Nav.Link href="#action1">Home</Nav.Link>
-            <Nav.Link href="#action2">Groups</Nav.Link>
-            <NavDropdown title="Link" id="navbarScrollingDropdown">
-              <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
+            <Nav.Link href="#action2">Community</Nav.Link>
+            <NavDropdown title="Support" id="navbarScrollingDropdown">
+              <NavDropdown.Item href="#action3">Contact</NavDropdown.Item>
               <NavDropdown.Item href="#action4">
-                Another action
+                About Us
               </NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item href="#action5">
-                Something else here
+                Community Guidelines
               </NavDropdown.Item>
             </NavDropdown>
             <Nav.Link href="#" disabled>
-              Link
+              Profile
             </Nav.Link>
           </Nav>
           <Form className="d-flex">

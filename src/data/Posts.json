@@ -3,8 +3,8 @@
         "id": 1,
         "title": "Hello World",
         "content": "This is my first post!",
-        "author": "Alice", "date": "01 Jun, 2025",
-        "timestamp": "2023-10-01T12:00:00Z",
+        "author": "Alice", 
+        "timestamp": "2025-10-01T12:00:00Z",
         "image": "./DigitalMark.png"
     },
     {
@@ -12,7 +12,7 @@
         "title": "Learning React",
         "content": "React is a powerful library for building user interfaces.",
         "author": "Bob",
-        "timestamp": "2023-10-02T14:30:00Z",
+        "timestamp": "2025-10-02T14:30:00Z",
         "image": "./customer-service.jpg"
     },
     {
@@ -20,7 +20,40 @@
         "title": "JavaScript Tips",
         "content": "Poeple's identity caught by Artificial Intelligence apps.",
         "author": "Charlie",
-        "timestamp": "2023-10-03T09:15:00Z",
+        "timestamp": "2025-10-03T09:15:00Z",
         "image": "./ai-human.jpg"
+    },
+    {
+        "id": 4,
+        "title": "CSS Tricks",
+        "content": "CSS can be tricky, but it's worth mastering.",
+        "author": "David",
+        "timestamp": "2025-10-04T11:45:00Z",
+        "image": "./css.jpg"
+    },
+    {
+        "id": 5,
+        "title": "Node.js Basics",
+        "content": "Node.js is great for building server-side applications.",
+        "author": "Eve",
+        "timestamp": "2025-10-05T16:20:00Z",
+        "image": "./nodejs.jpg"
+    
+    },
+    {
+        "id": 6,
+        "title": "Understanding Git",
+        "content": "Git is essential for version control in software development.",
+        "author": "Frank",
+        "timestamp": "2025-10-06T08:00:00Z",
+        "image": "./git.jpg"
+    },
+    {
+        "id": 7,
+        "title": "Web Accessibility",
+        "content": "Making the web accessible to everyone is important.",
+        "author": "Grace",
+        "timestamp": "2025-10-07T15:30:00Z",
+        "image": "./accessibility.jpg"
     }
 ]
